@@ -40,12 +40,37 @@ int main() {
     int number_of_pennies = remaining_amount;
     
     // Display the results
-    cout << "Your amount " << amount << " consists of " << endl <<
-    "   " << number_of_one_dollars << " dollars" << endl <<
-    "   " << number_of_quarters << " quarters" << endl <<
-    "   " << number_of_dimes << " dimes" << endl <<
-    "   " << number_of_nickels << " nickels" << endl <<
-    "   " << number_of_pennies << " penis" << endl;
+    cout << "Your amount " << amount << " consists of " << endl;
+    // Dollars
+    if (number_of_one_dollars == 1) {
+        cout << "   " << number_of_one_dollars << " dollar" << endl;
+    } else {
+        cout << "   " << number_of_one_dollars << " dollars" << endl;
+    }
+    // Quarters
+    if (number_of_quarters == 1) {
+        cout << "   " << number_of_quarters << " quarter" << endl;
+    } else {
+        cout << "   " << number_of_quarters << " quarters" << endl;
+    }
+    // Dimes
+    if (number_of_dimes == 1) {
+        cout << "   " << number_of_dimes << " dime" << endl;
+    } else {
+        cout << "   " << number_of_dimes << " dimes" << endl;
+    }
+    // Nickels
+    if (number_of_nickels == 1) {
+        cout << "   " << number_of_nickels << " nickel" << endl;
+    } else {
+        cout << "   " << number_of_nickels << " nickels" << endl;
+    }
+    // Pennies
+    if (number_of_pennies == 1) {
+        cout << "   " << number_of_pennies << " penny" << endl;
+    } else {
+        cout << "   " << number_of_pennies << " pennies" << endl;
+    }
     
     return 0;
 }
