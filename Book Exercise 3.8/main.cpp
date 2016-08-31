@@ -5,11 +5,15 @@
 //  Created by ax on 8/30/16.
 //  Copyright © 2016 COMP130. All rights reserved.
 //
+//  Book exercise 3.8 - Financial Application: Monetary Units
+//
 
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+
+    // Code Here
+    
     return 0;
 }
